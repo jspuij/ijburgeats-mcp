@@ -1,0 +1,58 @@
+{
+ "Total": 18.8,
+ "ProductCount": 1.0,
+ "HasValidOrderTime": true,
+ "Message": "",
+ "SearchZipCode": "1087GK",
+ "ShoppingCart": {
+  "Products": [
+   {
+    "RowID": "bdfe963d-e8bf-4f69-b994-c7ba1ff002c9",
+    "HTMLElementID": "bdfe963de8bf4f69b994c7ba1ff002c9",
+    "Name": "Ebi Fried Shrimps Bowl",
+    "Price": 15.5,
+    "Code": "shrimpbowl",
+    "ImageThumb": "https://portal.cashdesk.nl/web/images/9111cb80-9bc6-4834-8db2-41a41d9b623e/products/thumbs/1ef0b7db-8fd5-4561-8bd3-5dc50cdc31d5-2.jpeg",
+    "Image": "https://portal.cashdesk.nl/web/images/9111cb80-9bc6-4834-8db2-41a41d9b623e/products/1ef0b7db-8fd5-4561-8bd3-5dc50cdc31d5-2.jpeg",
+    "Count": 1,
+    "RowPrice": 15.85,
+    "ProductId": "1ef0b7db-8fd5-4561-8bd3-5dc50cdc31d5",
+    "ProductGroupId": "108f903d-41cb-427f-8ef6-4af9ee02c5cd",
+    "ProductGroupName": null,
+    "TotalPrice": 15.85,
+    "Toppings": [
+     {
+      "Name": "Zakje Sojasaus",
+      "Price": 0.35,
+      "Code": "sojasaus"
+     }
+    ],
+    "Addons": [
+     {
+      "Name": "Quinoa",
+      "Price": 0.0,
+      "Code": "quinoa"
+     }
+    ],
+    "GetHash": 1590397340,
+    "ContainsAlcohol": false,
+    "Soldout": false
+   }
+  ],
+  "DeliveryData": {
+   "Minimum": 13.0,
+   "DeliveryCost": 2.95,
+   "DeliveryFreeThreshold": 1000.0,
+   "MinimumDeliveryTime": 40
+  },
+  "MinimumReached": true,
+  "AmountNeededToReachMinimum": 0.0,
+  "SurchargeTotal": 0.0,
+  "GrandTotaal": 18.8,
+  "OrderTotalPrice": 18.8,
+  "ProductTotal": 15.85,
+  "OrderDate": "2026-10-04T12:57:44.6979779+02:00",
+  "IsAsapOrder": true,
+  "TipGiven": false
+ }
+}

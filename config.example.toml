@@ -1,0 +1,24 @@
+# Copy to ~/.config/ijburgeats/config.toml (or point IJBURGEATS_CONFIG at another path).
+# Used to fill in the checkout form; never leaves your machine except in the order itself.
+
+# Optional: log in so orders land in your account and order history/reorder work.
+# Keep this file private: chmod 600.
+[account]
+email = "jij@example.nl"
+password = ""
+
+[customer]
+first_name = "Voornaam"
+last_name = "Achternaam"
+email = "jij@example.nl"
+phone = "0612345678"
+street = "Straatnaam"
+house_number = "1"
+postcode = "1087AA"
+city = "Amsterdam"
+company = ""
+
+# Optional: restrict payment methods. Online-only means money moves only when a
+# person pays the returned link; WINKEL_Cash would order with no payment step.
+# [policy]
+# allowed_payments = ["MSP_Ideal", "MSP_MASTERCARD", "MSP_VISA"]

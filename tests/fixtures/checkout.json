@@ -1,0 +1,43 @@
+{
+ "PaymentOptionsList": [
+  {
+   "GroupName": "Ideal",
+   "Options": [
+    {
+     "Name": "Ideal",
+     "Value": "MSP_Ideal",
+     "Cost": 0.35,
+     "Enabled": true
+    }
+   ]
+  },
+  {
+   "GroupName": "Credit Card",
+   "Options": [
+    {
+     "Name": "MasterCard",
+     "Value": "MSP_MASTERCARD",
+     "Cost": 0.5,
+     "Enabled": true
+    },
+    {
+     "Name": "Visa",
+     "Value": "MSP_VISA",
+     "Cost": 0.5,
+     "Enabled": true
+    }
+   ]
+  },
+  {
+   "GroupName": "Betalen bij ontvangst",
+   "Options": [
+    {
+     "Name": "Contant",
+     "Value": "WINKEL_Cash",
+     "Cost": 0.0,
+     "Enabled": true
+    }
+   ]
+  }
+ ]
+}

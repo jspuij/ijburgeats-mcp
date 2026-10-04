@@ -1,0 +1,31 @@
+[project]
+name = "ijburgeats-mcp"
+version = "0.1.0"
+description = "MCP server for ordering food at ijburgeats.nl (Cashdesk webshop)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Jan-Willem Spuij" }]
+keywords = ["mcp", "food-delivery", "ijburg", "amsterdam", "cashdesk"]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=2.2",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+]
+
+[project.urls]
+Repository = "https://github.com/jspuij/ijburgeats-mcp"
+
+[project.scripts]
+ijburgeats-mcp = "ijburgeats_mcp.server:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
